@@ -1,0 +1,41 @@
+body{background:#ccc;padding:5px;overflow-y:hidden;overflow-x:hidden;}
+#bodybg{position:fixed;width:100%;height:100%$;left:0px;top:0px;z-index:-1;}
+#bodybg .stretch{width:100%;height:100%;}
+div.top{font-family:'\5FAE\8F6F\96C5\9ED1';width:100%;height:80px;text-align:center;line-height:80px;font-size:30px;}
+div.menu{font-family:'\5FAE\8F6F\96C5\9ED1';padding:10px 20px 10px 0;width:300px;height:80%;overflow-y: auto;box-sizing: border-box;margin: 0 auto}
+.olTitle{margin-top:5px;font-size:35px;margin-left:-45px;}
+.sequence{width:220px;height:95%;padding-left:60px;margin-right:20px;overflow-y:auto;}
+.sequence li{font-size:30px; margin: 0 auto}
+div.help{padding-top:8px;width:100%;text-align: center;}
+div.items{padding:15px;width:60%;font-family:'\5FAE\8F6F\96C5\9ED1';overflow: hidden;margin: 0 auto}
+div.item{margin-bottom:40px;margin-left:35px;margin-right:35px;float:left;vertical-align:middle;font-size:20px;text-align:center;}
+.model{width:300px;height:350px;text-align: left;font-size:12px;vertical-align: middle;color:#666;}
+.model b{display: inline-block;font-weight: 400;width:60px;}
+.model input[type='text']{padding:8px 10px;border:solid 1px #ddd;box-sizing: border-box;width:230px;}
+.model input[type='text']:focus{outline: none;border-color: #08c;}
+.line{margin-top:25px;padding-top:25px;border-top:dashed 1px #ddd;}
+.model p{overflow: hidden;}
+.model label{float: left;line-height: 18px;margin-right: 10px;}
+.model label input{float:left;}
+.readme{font-size: 12px;color:#666;}
+.help{line-height: 1.8;}
+.ss h2{font-size:18px;color:#fff;border-bottom: solid 1px #fff;padding-bottom:8px;}
+.ss ol{line-height: 1.5;background: rgba(255,255,255,.5);padding:10px;}
+.ui-dialog-content h2{color:#e00;}
+.ui-dialog-content h3{color:#666;}
+
+.item{width:100px;line-height:100px;height:100px;}
+.hide{display:none;}
+.config{
+    display: inline-block;
+    width: 120px;
+    height: 47px;
+    background: #ff7e20;
+    color: white;
+    border-radius: 8px;
+}
+.reset{
+    /*font-size: 20px;*/
+    color: #333;
+    font-weight: bold;
+}
